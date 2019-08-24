@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37593CD723111E3A00E734AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37593CD623111E3A00E734AA /* AppDelegate.swift */; };
+		37593CD923111E3A00E734AA /* musicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37593CD823111E3A00E734AA /* musicPlayer.swift */; };
+		37593CDC23111E3A00E734AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37593CDA23111E3A00E734AA /* Main.storyboard */; };
+		37593CDE23111E3B00E734AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37593CDD23111E3B00E734AA /* Assets.xcassets */; };
+		37593CE123111E3B00E734AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37593CDF23111E3B00E734AA /* LaunchScreen.storyboard */; };
+		37593CEB2311324500E734AA /* fuya.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37593CEA2311324500E734AA /* fuya.jpg */; };
+		37593CED231139BC00E734AA /* emoiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37593CEC231139BC00E734AA /* emoiView.swift */; };
+		37593CEF23113F1200E734AA /* TopToBottomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37593CEE23113F1200E734AA /* TopToBottomSegue.swift */; };
+		37593CF5231146AB00E734AA /* tugi.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CF3231146AB00E734AA /* tugi.png */; };
+		37593CF6231146AB00E734AA /* mae.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CF4231146AB00E734AA /* mae.png */; };
+		37593CFB23114FE800E734AA /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CFA23114FE800E734AA /* startButton.png */; };
+		37593CFD2311500E00E734AA /* stopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CFC2311500E00E734AA /* stopButton.png */; };
+		37593CFF231154B500E734AA /* sita.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CFE231154B500E734AA /* sita.png */; };
+		37593D0123115A0700E734AA /* backEmoi.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593D0023115A0700E734AA /* backEmoi.png */; };
+		37593D032311638000E734AA /* ue.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593D022311638000E734AA /* ue.png */; };
+		37593D052311641700E734AA /* topButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593D042311641700E734AA /* topButton.png */; };
+		37593D092311BD7400E734AA /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593D082311BD7400E734AA /* image1.png */; };
+		37593D0B2311BE2800E734AA /* image2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593D0A2311BE2800E734AA /* image2@3x.png */; };
+		37593D0D2311C4E400E734AA /* sample.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37593D0C2311C4E400E734AA /* sample.mp3 */; };
+		37593D0F2311C72200E734AA /* image4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593D0E2311C72200E734AA /* image4@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37593CD323111E3A00E734AA /* gaya-music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gaya-music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37593CD623111E3A00E734AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37593CD823111E3A00E734AA /* musicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayer.swift; sourceTree = "<group>"; };
+		37593CDB23111E3A00E734AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37593CDD23111E3B00E734AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37593CE023111E3B00E734AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37593CE223111E3B00E734AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37593CEA2311324500E734AA /* fuya.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fuya.jpg; sourceTree = "<group>"; };
+		37593CEC231139BC00E734AA /* emoiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoiView.swift; sourceTree = "<group>"; };
+		37593CEE23113F1200E734AA /* TopToBottomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopToBottomSegue.swift; sourceTree = "<group>"; };
+		37593CF3231146AB00E734AA /* tugi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tugi.png; sourceTree = "<group>"; };
+		37593CF4231146AB00E734AA /* mae.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mae.png; sourceTree = "<group>"; };
+		37593CFA23114FE800E734AA /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
+		37593CFC2311500E00E734AA /* stopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stopButton.png; path = ../../../../../Downloads/stopButton.png; sourceTree = "<group>"; };
+		37593CFE231154B500E734AA /* sita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sita.png; sourceTree = "<group>"; };
+		37593D0023115A0700E734AA /* backEmoi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backEmoi.png; sourceTree = "<group>"; };
+		37593D022311638000E734AA /* ue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ue.png; sourceTree = "<group>"; };
+		37593D042311641700E734AA /* topButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topButton.png; sourceTree = "<group>"; };
+		37593D082311BD7400E734AA /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		37593D0A2311BE2800E734AA /* image2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image2@3x.png"; sourceTree = "<group>"; };
+		37593D0C2311C4E400E734AA /* sample.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sample.mp3; sourceTree = "<group>"; };
+		37593D0E2311C72200E734AA /* image4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image4@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37593CD023111E3A00E734AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37593CCA23111E3A00E734AA = {
+			isa = PBXGroup;
+			children = (
+				37593CD523111E3A00E734AA /* gaya-music */,
+				37593CD423111E3A00E734AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37593CD423111E3A00E734AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37593CD323111E3A00E734AA /* gaya-music.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37593CD523111E3A00E734AA /* gaya-music */ = {
+			isa = PBXGroup;
+			children = (
+				37593CF72311474600E734AA /* file */,
+				37593CD623111E3A00E734AA /* AppDelegate.swift */,
+				37593CD823111E3A00E734AA /* musicPlayer.swift */,
+				37593CEC231139BC00E734AA /* emoiView.swift */,
+				37593CEE23113F1200E734AA /* TopToBottomSegue.swift */,
+				37593D0C2311C4E400E734AA /* sample.mp3 */,
+				37593CDA23111E3A00E734AA /* Main.storyboard */,
+				37593CDD23111E3B00E734AA /* Assets.xcassets */,
+				37593CDF23111E3B00E734AA /* LaunchScreen.storyboard */,
+				37593CE223111E3B00E734AA /* Info.plist */,
+			);
+			path = "gaya-music";
+			sourceTree = "<group>";
+		};
+		37593CF72311474600E734AA /* file */ = {
+			isa = PBXGroup;
+			children = (
+				37593D082311BD7400E734AA /* image1.png */,
+				37593D0A2311BE2800E734AA /* image2@3x.png */,
+				37593D0E2311C72200E734AA /* image4@3x.png */,
+				37593CF4231146AB00E734AA /* mae.png */,
+				37593CF3231146AB00E734AA /* tugi.png */,
+				37593CEA2311324500E734AA /* fuya.jpg */,
+				37593CFC2311500E00E734AA /* stopButton.png */,
+				37593D0023115A0700E734AA /* backEmoi.png */,
+				37593CFA23114FE800E734AA /* startButton.png */,
+				37593CFE231154B500E734AA /* sita.png */,
+				37593D022311638000E734AA /* ue.png */,
+				37593D042311641700E734AA /* topButton.png */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37593CD223111E3A00E734AA /* gaya-music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37593CE523111E3B00E734AA /* Build configuration list for PBXNativeTarget "gaya-music" */;
+			buildPhases = (
+				37593CCF23111E3A00E734AA /* Sources */,
+				37593CD023111E3A00E734AA /* Frameworks */,
+				37593CD123111E3A00E734AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gaya-music";
+			productName = "gaya-music";
+			productReference = 37593CD323111E3A00E734AA /* gaya-music.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37593CCB23111E3A00E734AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Fuuya Yamada";
+				TargetAttributes = {
+					37593CD223111E3A00E734AA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 37593CCE23111E3A00E734AA /* Build configuration list for PBXProject "gaya-music" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37593CCA23111E3A00E734AA;
+			productRefGroup = 37593CD423111E3A00E734AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37593CD223111E3A00E734AA /* gaya-music */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37593CD123111E3A00E734AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37593CE123111E3B00E734AA /* LaunchScreen.storyboard in Resources */,
+				37593CEB2311324500E734AA /* fuya.jpg in Resources */,
+				37593D0F2311C72200E734AA /* image4@3x.png in Resources */,
+				37593CF5231146AB00E734AA /* tugi.png in Resources */,
+				37593CDE23111E3B00E734AA /* Assets.xcassets in Resources */,
+				37593CFB23114FE800E734AA /* startButton.png in Resources */,
+				37593CF6231146AB00E734AA /* mae.png in Resources */,
+				37593CFF231154B500E734AA /* sita.png in Resources */,
+				37593D092311BD7400E734AA /* image1.png in Resources */,
+				37593CDC23111E3A00E734AA /* Main.storyboard in Resources */,
+				37593CFD2311500E00E734AA /* stopButton.png in Resources */,
+				37593D0123115A0700E734AA /* backEmoi.png in Resources */,
+				37593D032311638000E734AA /* ue.png in Resources */,
+				37593D0B2311BE2800E734AA /* image2@3x.png in Resources */,
+				37593D052311641700E734AA /* topButton.png in Resources */,
+				37593D0D2311C4E400E734AA /* sample.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37593CCF23111E3A00E734AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37593CED231139BC00E734AA /* emoiView.swift in Sources */,
+				37593CEF23113F1200E734AA /* TopToBottomSegue.swift in Sources */,
+				37593CD923111E3A00E734AA /* musicPlayer.swift in Sources */,
+				37593CD723111E3A00E734AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37593CDA23111E3A00E734AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37593CDB23111E3A00E734AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37593CDF23111E3B00E734AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37593CE023111E3B00E734AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37593CE323111E3B00E734AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37593CE423111E3B00E734AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37593CE623111E3B00E734AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z68H8WQ6;
+				INFOPLIST_FILE = "gaya-music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fuya.gaya-music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37593CE723111E3B00E734AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65Z68H8WQ6;
+				INFOPLIST_FILE = "gaya-music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fuya.gaya-music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37593CCE23111E3A00E734AA /* Build configuration list for PBXProject "gaya-music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37593CE323111E3B00E734AA /* Debug */,
+				37593CE423111E3B00E734AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37593CE523111E3B00E734AA /* Build configuration list for PBXNativeTarget "gaya-music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37593CE623111E3B00E734AA /* Debug */,
+				37593CE723111E3B00E734AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37593CCB23111E3A00E734AA /* Project object */;
+}
