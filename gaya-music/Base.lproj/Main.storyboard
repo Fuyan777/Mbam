@@ -55,6 +55,9 @@
                                 <rect key="frame" x="272" y="738" width="36" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="goMusic.png"/>
+                                <connections>
+                                    <action selector="nextTap:" destination="vCB-1P-uRM" eventType="touchUpInside" id="nL0-od-FKz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obg-px-eJU">
                                 <rect key="frame" x="199" y="89" width="16" height="38"/>
@@ -122,6 +125,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="vCB-1P-uRM" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
         </scene>
@@ -204,7 +208,7 @@
         <image name="roop.png" width="19" height="15.5"/>
         <image name="shuffle.png" width="19" height="15.5"/>
         <image name="sita.png" width="16" height="38"/>
-        <image name="stopButton.png" width="61.333332061767578" height="61.333332061767578"/>
+        <image name="stopButton.png" width="79" height="79"/>
         <image name="topButton.png" width="16" height="38"/>
         <image name="ue.png" width="422" height="130"/>
     </resources>

@@ -17,7 +17,7 @@
 		37593CF5231146AB00E734AA /* tugi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CF3231146AB00E734AA /* tugi@3x.png */; };
 		37593CF6231146AB00E734AA /* mae@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CF4231146AB00E734AA /* mae@3x.png */; };
 		37593CFB23114FE800E734AA /* startButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CFA23114FE800E734AA /* startButton@2x.png */; };
-		37593CFD2311500E00E734AA /* stopButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CFC2311500E00E734AA /* stopButton@2x.png */; };
+		37593CFD2311500E00E734AA /* stopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CFC2311500E00E734AA /* stopButton.png */; };
 		37593CFF231154B500E734AA /* sita.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593CFE231154B500E734AA /* sita.png */; };
 		37593D032311638000E734AA /* ue.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593D022311638000E734AA /* ue.png */; };
 		37593D052311641700E734AA /* topButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 37593D042311641700E734AA /* topButton.png */; };
@@ -49,7 +49,7 @@
 		37593CF3231146AB00E734AA /* tugi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tugi@3x.png"; sourceTree = "<group>"; };
 		37593CF4231146AB00E734AA /* mae@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mae@3x.png"; sourceTree = "<group>"; };
 		37593CFA23114FE800E734AA /* startButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "startButton@2x.png"; sourceTree = "<group>"; };
-		37593CFC2311500E00E734AA /* stopButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stopButton@2x.png"; path = "../../../../../Downloads/stopButton@2x.png"; sourceTree = "<group>"; };
+		37593CFC2311500E00E734AA /* stopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stopButton.png; path = "../../../../素材/joysounds/stopButton.png"; sourceTree = "<group>"; };
 		37593CFE231154B500E734AA /* sita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sita.png; sourceTree = "<group>"; };
 		37593D022311638000E734AA /* ue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ue.png; sourceTree = "<group>"; };
 		37593D042311641700E734AA /* topButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topButton.png; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 				37593D222312178900E734AA /* emoiBack@3x.png */,
 				37593CF4231146AB00E734AA /* mae@3x.png */,
 				37593CF3231146AB00E734AA /* tugi@3x.png */,
-				37593CFC2311500E00E734AA /* stopButton@2x.png */,
+				37593CFC2311500E00E734AA /* stopButton.png */,
 				37593CFA23114FE800E734AA /* startButton@2x.png */,
 				37593CFE231154B500E734AA /* sita.png */,
 				37593D022311638000E734AA /* ue.png */,
@@ -210,7 +210,7 @@
 				37593CDC23111E3A00E734AA /* Main.storyboard in Resources */,
 				37593D1723120ACF00E734AA /* roop@3x.png in Resources */,
 				37593D1F2312154200E734AA /* musicImage@3x.png in Resources */,
-				37593CFD2311500E00E734AA /* stopButton@2x.png in Resources */,
+				37593CFD2311500E00E734AA /* stopButton.png in Resources */,
 				37593D1923120BB000E734AA /* shuffle@3x.png in Resources */,
 				37593D1B23120C5D00E734AA /* backMusic@3x.png in Resources */,
 				37593D032311638000E734AA /* ue.png in Resources */,
