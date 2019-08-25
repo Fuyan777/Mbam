@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Mbam Table View-->
         <scene sceneID="k9w-wl-8X6">
             <objects>
-                <tableViewController id="LA7-QG-YnI" sceneMemberID="viewController">
+                <tableViewController id="LA7-QG-YnI" customClass="MbamTableView" customModule="gaya_music" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="MRn-uT-OFN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -47,14 +47,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L47-As-DN4">
-                                <rect key="frame" x="80" y="767" width="39" height="37"/>
+                                <rect key="frame" x="104" y="767" width="39" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="mae.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXh-Ou-uDW">
-                                <rect key="frame" x="299" y="767" width="36" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="tugi.png"/>
+                                <state key="normal" image="backMusic.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obg-px-eJU">
                                 <rect key="frame" x="199" y="89" width="16" height="38"/>
@@ -70,8 +65,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJH-8a-slc">
-                                <rect key="frame" x="161" y="739" width="92" height="92"/>
+                                <rect key="frame" x="171" y="755" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="stopButton.png"/>
                                 <connections>
                                     <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aZC-HH-Mot"/>
                                 </connections>
@@ -98,6 +94,21 @@
                                     <segue destination="W26-hP-8ma" kind="presentation" customClass="TopToBottomSegue" customModule="gaya_music" customModuleProvider="target" id="2UD-5I-tKI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goO-BR-XV0">
+                                <rect key="frame" x="36" y="772" width="26" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="roop.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdG-yz-Ko5">
+                                <rect key="frame" x="358" y="772" width="26" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="shuffle.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXh-Ou-uDW">
+                                <rect key="frame" x="272" y="767" width="36" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="goMusic.png"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -105,6 +116,8 @@
                     <connections>
                         <outlet property="button" destination="LJH-8a-slc" id="ntp-qG-CrN"/>
                         <outlet property="musicImage" destination="vxa-ja-FL1" id="VI1-6e-273"/>
+                        <outlet property="musicLabel" destination="48l-Z1-ckK" id="eBo-pa-I46"/>
+                        <outlet property="musicName" destination="r3C-Du-5w4" id="Rzq-ql-kDt"/>
                         <outlet property="playerButton" destination="LJH-8a-slc" id="fFx-AN-yit"/>
                     </connections>
                 </viewController>
@@ -140,21 +153,21 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </pageControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="この曲をよく聴いていた頃の写真" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fr1-bJ-jns">
-                                <rect key="frame" x="49" y="166" width="317" height="22"/>
+                                <rect key="frame" x="49" y="157" width="317" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10枚" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMD-7P-Xtc">
-                                <rect key="frame" x="300" y="196" width="75" height="40"/>
+                                <rect key="frame" x="300" y="186" width="75" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8C-0M-pcl">
-                                <rect key="frame" x="188" y="93" width="41" height="59"/>
+                                <rect key="frame" x="188" y="88" width="41" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="topButton.png"/>
                                 <connections>
@@ -177,11 +190,14 @@
     </scenes>
     <resources>
         <image name="backEmoi.png" width="703.33331298828125" height="605.33331298828125"/>
+        <image name="backMusic.png" width="29.25" height="14.25"/>
         <image name="fuya.jpg" width="3024" height="4032"/>
-        <image name="mae.png" width="31" height="16"/>
+        <image name="goMusic.png" width="29.25" height="14.25"/>
+        <image name="roop.png" width="19" height="15.5"/>
+        <image name="shuffle.png" width="19" height="15.5"/>
         <image name="sita.png" width="16" height="38"/>
+        <image name="stopButton.png" width="61.333332061767578" height="61.333332061767578"/>
         <image name="topButton.png" width="16" height="38"/>
-        <image name="tugi.png" width="31" height="16"/>
         <image name="ue.png" width="422" height="130"/>
     </resources>
 </document>

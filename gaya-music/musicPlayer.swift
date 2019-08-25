@@ -15,9 +15,16 @@ class musicPlayer: UIViewController, AVAudioPlayerDelegate {
     
     @IBOutlet var button:UIButton!
     @IBOutlet weak var musicImage: UIImageView!
+    @IBOutlet weak var musicLabel: UILabel!
+    @IBOutlet weak var musicName: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.button.layer.shadowOpacity = 0.3
+        self.button.layer.shadowRadius = 8
+        self.button.layer.shadowColor = UIColor.black.cgColor
+        self.button.layer.shadowOffset = CGSize(width: 3, height: 3)
+        
         playerButton.setImage(startImage, for: .normal)
         musicImage.layer.cornerRadius = musicImage.frame.width / 2.0
         music()
