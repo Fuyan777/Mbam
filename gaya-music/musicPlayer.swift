@@ -20,6 +20,8 @@ class musicPlayer: UIViewController, AVAudioPlayerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        musicLabel.text = "yamaokaya"
+        musicName.text = "fuya yamada"
         self.button.layer.shadowOpacity = 0.3
         self.button.layer.shadowRadius = 8
         self.button.layer.shadowColor = UIColor.black.cgColor
